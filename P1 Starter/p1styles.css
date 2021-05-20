@@ -1,0 +1,389 @@
+/******w***********
+    
+    Project 1 Stylesheet
+    Name: Tracy Salak 
+    Date: 2021-02-13
+    Description: Mock Up Stylesheet for project1.html
+
+******************/
+*{
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: auto;
+    background-color: #E7E7E7;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+.mainbody{
+    margin: 10px auto;
+    padding: 10px;
+    width: 50%;
+    min-width:1000px;
+    height:auto;
+    background-color: #FFFFFF;
+    border: 1px solid #888;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #888, inset 0 -30px 30px -10px rgb(207, 207, 207);
+    
+}
+
+.topheader nav{
+    display: flex;
+}
+    .topheader nav ul{
+        display: flex;
+        list-style: none;
+        align-self: flex-end;
+        padding: 0px;
+        margin: 50px 290px 2px auto;
+    }
+        .topheader nav ul li, .belowlist li, #streetname ul li{
+            padding: 0px 10px;
+            border-right: #6466BA 1px solid;
+            font-size: 10px;
+        }
+
+        .topheader nav ul li:last-child, .belowlist li:last-child, #streetname ul li:last-child{
+            border-right: none;
+        }
+
+        .topheader nav ul li a, footer a, #streetname ul li a{
+			text-decoration: none;
+			width: 100%;
+            color: #006699;
+		}
+
+        .topheader nav ul li a:hover, footer a:hover, .belowlist li a:hover, #streetname ul li a:hover{
+            color: #000;
+        }
+
+        .topheader nav ul li a:focus, footer a:focus, .belowlist li a:focus, #streetname ul li a:focus{
+            color: #000;
+        }
+
+#search{
+    position: absolute;
+    float: right;
+    margin: -45px 780px auto;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    width: 250px;
+}
+
+    #search ul{
+        position: relative;
+        list-style: none;
+        width: 90%;
+        align-self: flex-end;
+    }
+
+        #searchbar{
+            position: relative;
+            width: 50%;
+        }
+
+.mainnav{
+    width: 100%;
+    text-align: center;
+    margin: -15px 0.5px auto;
+}
+    .mainnav ul{
+        position: relative;
+        padding: 5px;
+        list-style: none;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        font-size: 70%;
+        background-image: linear-gradient(to top,#1775A8, #75B4E7);
+        font-weight: bold;
+    }
+        .mainnav ul li{
+            padding: 5px;
+            border-right: #000 1px solid;
+            line-height: 5px;
+            box-shadow: 1px 0px #FFF;
+        }
+
+        .mainnav ul li:last-child{
+            border-right: none;
+            box-shadow: none;
+        }
+
+        .mainnav ul li a{
+            text-decoration: none;
+            display: inline-block;
+            color: #FFF;
+        }
+
+        .mainnav ul li a:hover{
+            color: #283c4d;
+        }
+
+        .mainnav ul li a:focus{
+            color: #283c4d;
+        }
+
+#sidebar{
+    margin: auto;
+}
+
+#sidebar ul{
+    text-align: left;
+    position: relative;
+    width: 30%;
+    text-decoration: none;
+    list-style-position: inside;
+    margin: 5px -40px auto;
+}
+
+    #sidebar ul li:nth-child(1n+1){
+        background-image: linear-gradient(to top, #CECDCD, #ECECEC);
+        border-style: none;
+        padding-left: 15px;
+        position: relative;
+        top: -11px;
+        height: 25px;
+    }
+
+    #sidebar ul li:first-child{
+        list-style: none;
+    }
+
+    #sidebar ul li a{
+        font-size: 10px;
+        font-weight: bold;
+        text-decoration: none;
+        color: #000;
+        width: 100%;
+        text-align: center;
+        position: relative;
+        top: -2px;
+        left: -10px;
+    }
+
+    #sidebar ul li a:hover{
+        color: #778899;
+    }
+
+    #sidebar ul li a:focus{
+        color: #778899;
+    }
+
+.headtitle{
+    position: relative;
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+.headtitle #pagetitle{
+    position: absolute;
+    top: -30px;
+    padding: 20px;
+    color: #EEE;
+    font-size: 35px;
+    letter-spacing: 5px;
+    width: 100%;
+}
+
+.headtitle #subtitle{
+    position: absolute;
+    margin: -30px auto 3px 760px;
+    color: #EEE;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 12px;
+    width: 100%;
+}
+
+#logo{
+    margin: auto;
+    float: left;
+    position: relative;
+    width: 15%;
+    height: 15%;
+    left: 0.5px;
+}
+
+#headerbg{
+    position: relative;
+    width: 100%;
+}
+
+#disclaimer{
+    position: relative;
+    width: 25%;
+    font-size: 10px;
+    
+}
+    #disclaimer p{
+        border-top: 1px solid;
+        padding-top: 5px;
+        color: #888;
+    }
+
+    #disclaimer img{
+        float: right;
+        margin: 5px;
+    }
+
+#sections{
+    float: right;
+    height: 100px;
+    margin: -285px 180px auto;
+    width: 100%;
+}
+    #sections ul{
+        display: flex;
+        padding: 0.5px;
+        justify-content: center;
+        margin: auto;
+    }
+
+    #sections ul li{
+        list-style: none;
+        font-size: 10px;
+        text-align: left;
+        padding: 2px;
+    }
+
+    #sections ul li a{
+        text-decoration: none;
+        color: #006699;
+    }
+
+    #sections ul li a:hover{
+        color: #000;
+    }
+
+    #sections ul li a:focus{
+        color: #000;
+    }
+
+#titlepage{
+    float: right;
+    height: 100px;
+    margin: -285px -250px auto;
+    width: 100%;
+}
+    #titlepage p{
+        padding: 15px;
+        font-weight: bold;
+    }
+
+#middleline{
+    float: right;
+    margin: -230px 5px auto;
+    width: 72.5%;
+    border-top: #888 1px solid;
+}    
+
+#middleinfo{
+    float: right;
+    height: 100px;
+    margin: -230px 30px auto;
+    width: 70%;
+}
+    #middleinfo p{
+        font-size: 12px;
+    }
+
+    #middleinfo p a{
+        text-decoration: none;
+        color: #006699;
+    }
+
+    #middleinfo ul{
+        margin-left: -30px;
+    }
+
+    #middleinfo ul li{
+        font-size: 12px;
+        padding: 5px;
+        list-style: none;
+        font-weight: bold;
+    }
+
+    #middleinfo ul li a{
+        text-decoration: none;
+        color: #006699;
+    }
+
+    #middleinfo a:hover{
+        color: rgb(24, 29, 75);
+    }
+
+    #middleinfo a:focus{
+        color: rgb(24, 29, 75);
+    }
+
+    #middleinfo img{
+        float: right;
+        margin-top: 10px;
+        margin-right: 15px;
+        border: 1px #000 solid;
+    }
+
+#middleinfo figure{
+    float: right;
+    position: relative;
+    margin: 2px -25px auto;
+    border: 1px #888 solid;
+    width: 40%;
+}
+    #middleinfo figure img{
+        width: 90%;
+    }
+
+    #middleinfo figure figcaption{
+        float: right;
+        position: relative;
+        font-size: 10px;
+        padding: 2px 15px 10px 15px;
+        margin: auto;
+        width:100%;
+    }
+
+footer{
+    margin: 120px 0px 0px 0px;
+    width: 100%;
+    font-size: 10px;
+    text-align: center;
+    box-sizing: border-box;
+}
+    footer p{
+       margin: auto;
+    }
+
+    footer ul{
+        display: flex;
+        list-style: none;
+        margin: 10px 250px auto;
+    }
+
+.belowlist{
+    margin: 0px 300px auto;
+}
+
+.belowlist li{
+    font-size: 10px;
+    line-height: 1px;
+    padding: 7px;
+}
+
+#streetname{
+    margin: -10px 10px 0px 10px;
+}
+
+/*#gradientbottom{
+    box-shadow: inset 0 -10px 10px -10px #000000;
+}*/

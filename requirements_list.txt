@@ -1,0 +1,13 @@
+/*    
+	WEBD-1008 Web Development 1: Project 1 Design to Development
+	Name: Tracy Salak
+	Date: 2021-02-13
+	Description: requirements - planning
+	Due Date: Feb 26 2021 @ 11:59 PM
+*/
+
+-	Create a mock up design of the website
+-	List the colours that was used in the page
+	-Use colour-picker: in hex codes
+-	The page has header, navigation, search bar, body and footer
+-	Font used: Verdana
